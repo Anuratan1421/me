@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
-app.set('views', './views');
+
 
 app.set('view engine', 'ejs');
 
@@ -20,7 +20,7 @@ Step 4: Add the partials to the about and contact pages to show the header and f
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.render("index");
+  res.render("./views/index.ejs"); 
 });
 
 app.get("/about", (req, res) => {
