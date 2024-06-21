@@ -1,6 +1,6 @@
 html,
 body {
-  height: 100%;
+  
 }
 
 .home-title{
@@ -9,13 +9,14 @@ body {
 
 .container{
   padding-top: 20px;
+  height: 859px;
 }
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: stretch;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 header,
@@ -35,7 +36,7 @@ h1 {
 
 p {
   color: grey;
-  font-size: 19px;
+  font-size: 14px;
 }
 
 .homepage-p{
