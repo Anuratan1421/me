@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
-
+app.set('view engine', 'ejs');
 /* Write your code here:
 Step 1: Render the home page "/" index.ejs
 Step 2: Make sure that static files are linked to and the CSS shows up.
