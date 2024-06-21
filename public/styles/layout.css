@@ -7,6 +7,19 @@
   font-family: "Poppins", sans-serif;
 }
 
+footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 90px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
 i {
   margin-right: 10px;
 }
