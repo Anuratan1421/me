@@ -20,7 +20,7 @@ Step 4: Add the partials to the about and contact pages to show the header and f
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  res.render('index');
+  res.render("index.ejs");
 });
 
 app.get("/about", (req, res) => {
