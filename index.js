@@ -1,6 +1,7 @@
 import express from "express";
 import dotenv from 'dotenv';
 
+app.set('view engine', 'ejs');
 // Load environment variables from .env file
 dotenv.config();
 const app = express();
