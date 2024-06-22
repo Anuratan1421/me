@@ -1,7 +1,11 @@
 html,
 body {
  
-
+height: 869px;
+display: flex;
+flex-direction: column;
+justify-content: stretch;
+font-size: 14px;
 }
 
 
@@ -15,12 +19,6 @@ body {
   height: auto;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: stretch;
-  font-size: 14px;
-}
 
 header,
 footer {
