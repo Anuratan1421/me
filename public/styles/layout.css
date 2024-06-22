@@ -194,9 +194,7 @@ footer .menu {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px ;
- 
-  padding-top: 20px;
+  margin-top: 20px ;
 }
 
 footer .social_icon li,
