@@ -114,8 +114,8 @@ i {
 
 
   .navbar-expand-custom {
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
     -ms-flex-pack: start;
     text-wrap: nowrap;
     justify-content: flex-start;
@@ -135,7 +135,6 @@ i {
   }
 
 
-@media (max-width: 991px) {
   #navbarSupportedContent ul li a {
     padding: 12px 30px;
   }
@@ -170,7 +169,7 @@ i {
     bottom: -25px;
     left: -25px;
   }
-}
+
 
 footer {
  
