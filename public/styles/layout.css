@@ -172,20 +172,20 @@ i {
 }
 
 footer {
-  position: relative;
-  position: absolute;
+ 
+  position:relative;
   left: 0px;
   padding-top: 20px;
-  bottom: 00px;
+ 
   width: 100%;
   background: #3586ff;
-  height: 90px;
+  min-height:100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
-  margin-top: 20px;
+  margin-top: 115px;
 }
 
 footer .social_icon,
