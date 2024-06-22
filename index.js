@@ -35,11 +35,13 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/contact", (req, res) => {
-  res.render("contact");
+  const apiKey = process.env.API;
+  res.render("contact", { apiKey });
 });
-
 
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
+
+

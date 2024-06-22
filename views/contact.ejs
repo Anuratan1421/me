@@ -1,8 +1,10 @@
 <%-include("partials/header.ejs")  %>
 
+
+
 <h1>Contact Me</h1>
-<form method="POST" id="form" >
-  <input type="hidden" name="access_key"  value="${process.env.API}">
+<form method="POST" id="form" value="<%= apiKey %>" >
+  <input type="hidden" name="access_key"   value="<%= apiKey %>">
   <input id="name" name="name" type="text" class="feedback-input" placeholder="Name" />
   <input id="email" name="email" type="text" class="feedback-input" placeholder="Email" />
   <textarea id="text" name="text" class="feedback-input" placeholder="Comment"></textarea>

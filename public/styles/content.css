@@ -1,16 +1,18 @@
 html,
 body {
- margin-bottom: 40px;
+ 
+
 }
 
 
 .home-title{
-  margin-top: 20px;
+ margin-top: 20px;
 }
 
 .container{
   padding-top: 20px;
   font-size: 14px;
+  height: auto;
 }
 
 body {
