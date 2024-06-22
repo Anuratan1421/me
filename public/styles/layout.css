@@ -179,7 +179,7 @@ footer {
   bottom: 00px;
   width: 100%;
   background: #3586ff;
-  min-height: 100px;
+  height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
