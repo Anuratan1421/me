@@ -175,8 +175,8 @@ footer {
  
   position:relative;
   left: 0px;
-  padding-top: 20px;
- 
+  padding: 0px;
+  margin-top: 115px;
   width: 100%;
   background: #3586ff;
   min-height:100px;
@@ -185,7 +185,7 @@ footer {
   justify-content: center;
   align-items: center;
   color: white;
-  margin-top: 115px;
+  
 }
 
 footer .social_icon,
